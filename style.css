@@ -564,9 +564,17 @@ align-items: center;
 margin: 70px 0px 0px 70px;
 background-color: #fff;
 }
-.hero10__text{
-    
+.svgstar{
     background-color: #fff;
+}
+.hero10__text{
+    filter: blur(2px) grayscale(0.5);
+    background-color: #fff;
+}
+.hero10__text:hover{
+    filter: blur(0px) grayscale(0);
+    background-color: #fff;
+    cursor: pointer;
 }
 .hero10__p1{
 font-size: 35px;
