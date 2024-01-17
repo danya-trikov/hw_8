@@ -536,6 +536,7 @@ background: #FFF;
     border: 2px solid #F53838;
     transition: transform 0.5s ease-in-out;
     
+    
 }
 .hero9__button1:hover{
     color: orange;
@@ -553,15 +554,27 @@ height: 233px;
 margin: 0 auto;
 }
 .hero10__wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 70px 0px 0px 120px;
+background-color: #fff;
+margin-left: -75px;
+}    
+.hero10_cont{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 70px 0px 0px 70px;
+background-color: #fff;
+}
+.svgstar{
     background-color: #fff;
 }
 .hero10__text{
-    margin-left: 0px;
+    filter: blur(2px) grayscale(0.5);
     background-color: #fff;
+}
+.hero10__text:hover{
+    filter: blur(0px) grayscale(0);
+    background-color: #fff;
+    cursor: pointer;
 }
 .hero10__p1{
 font-size: 35px;
@@ -589,7 +602,9 @@ color: #FFF;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
-margin-right: 70px;transition: transform 0.5s ease-in-out;
+margin-right: 70px;
+transition: transform 0.5s ease-in-out;
+
 
 }
 .hero10__button:hover{
@@ -613,12 +628,13 @@ margin-right: 70px;transition: transform 0.5s ease-in-out;
     display: flex;
     justify-content: start;
     align-items: center;
-    gap: 230px;
+    gap: 230px; 
     margin: 64px 0px 0px 120px;
 }
 .foot__logo{
     width: 150px;
 height: 37px;
+
 }
 .foot__list{
     display: flex;
